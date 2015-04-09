@@ -1,0 +1,14 @@
+let g:neocomplcache#enable_at_startup = 1
+let g:neocomplcache#max_list = 20
+" シンタックスファイルの補完候補となるキーワードの長さ
+let g:neocomplcache#min_syntax_length = 4
+" 補完が自動で開始される文字数
+let g:neocomplcache#auto_completion_start_length = 3
+" 大文字を区切り文字として補完
+let g:neocomplcache#enable_camel_case_completion = 1
+let g:neocomplcache#enable_underbar_completion = 1
+let g:neocomplcache#enable_ignore_case = 0
+let g:neocomplcache#enable_auto_select = 1
+
+" バッファ、辞書ファイルの補完候補となるキーワードの長さ
+let g:neocomplcache#min_keyword_length = 4
