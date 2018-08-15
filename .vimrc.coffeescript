@@ -1,2 +1,0 @@
-au BufWritePost *.coffee silent CoffeeMake!  -b | cwindow | redraw!
-let coffee_make_options = '--bare'
