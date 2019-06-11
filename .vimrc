@@ -1,4 +1,5 @@
 """"""""""""""""""""""""""""""
+" vim-plugを使ってます
 " プラグインのセットアップ
 """"""""""""""""""""""""""""""
 call plug#begin('~/.vim/plugged')
@@ -117,4 +118,6 @@ set listchars=tab:>\ ,extends:<
 set number
 " 対応する括弧やブレースを表示する
 set showmatch
+set modelines=0
+set nomodeline
 """"""""""""""""""""""""""""""
